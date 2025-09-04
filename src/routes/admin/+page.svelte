@@ -6,7 +6,6 @@
 
 <h1 class="text-3xl font-bold mb-6">Admin Dashboard</h1>
 
-<!-- Add new product -->
 <div class="bg-white shadow rounded-xl p-4 mb-8">
   <h2 class="text-xl font-semibold mb-4">Add New Product</h2>
   <form method="POST" class="grid gap-4">
@@ -25,7 +24,7 @@
   </form>
 </div>
 
-<!-- List and manage products -->
+
 {#if products.length > 0}
   <div class="space-y-6">
     {#each products as product}

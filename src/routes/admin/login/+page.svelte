@@ -2,7 +2,7 @@
   export let form;
 </script>
 
-<h1 class="text-2xl font-bold mb-4">Admin Login</h1>
+<h1 class="text-2xl font-bold mb-4">Login</h1>
 
 <form action="?/login" method="POST" class="flex flex-col gap-3 max-w-sm">
   <input type="password" name="password" placeholder="Password" class="border p-2 rounded" required />
